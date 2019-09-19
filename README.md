@@ -2,9 +2,11 @@
 
 > 本项目用于2019年下半学期的专业实训团队协作
 
-本项目旨在实现通过机器学习的方式，对恶意软件进行分类
+本项目旨在实现通过机器学习的方式，对恶意软件进行分类。
 
-数据集 https://github.com/ocatak/malware_api_class
+本项目使用的主要语言为 `Python` , 基于 `Tensorflow` 和 `Keras` 进行机器学习。
+
+数据集来源 https://github.com/ocatak/malware_api_class
 
 ### 第一阶段目标
 
