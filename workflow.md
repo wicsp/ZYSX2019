@@ -20,8 +20,26 @@
 
 >Figure shows the general flow of the generation of the malware data set. As shown in the figure, we have obtained the MD5 hash values of the malware we collect from Github. We searched these hash values using the VirusTotal API, and we have obtained the families of these malicious software from the reports of 67 different antivirus software in VirusTotal. We have observed that the malicious software families found in the reports of these 67 different antivirus software in VirusTotal are different.
 
-
 ![](https://raw.githubusercontent.com/gordongwb/ImageHosting/master/overall.png)
+
+# 0X00 Data PreProcessing
+
+### 数据集转换
+对各 API 进行编号，并将由 API 调用顺序组成的原文件转换为由各 API 序号构成的新文件，便于机器学习。
+
+经统计， 在数据集中出现的 API 共有 278 种。
+
+###
+
+# 0x00 Classification Algorithm
+
+### 1.基于术语频率(Term Frequency)的分类
+
+### 
+
+
+
+
 
 
 
