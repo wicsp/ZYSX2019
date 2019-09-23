@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- 
 # @Time : 9/23/19 3:35 PM 
-# @Author : kzl 
+# @Author : gordongwb
 # @File : gen_dict.py
 
 import time
@@ -11,10 +11,10 @@ import os
 list = []
 
 start = time.time()
-with open(os.path.abspath('.')+'/dataset/mal-api-2019/all_analysis_data', 'r') as old_f:
+with open(os.path.abspath('.')+'/dataset/mal-api-2019/all_analysis_data', 'r') as f:
     i = 0
     while True:
-        line = old_f.readline()
+        line = f.readline()
         if line:
             print(i)
             i += 1

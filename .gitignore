@@ -1,7 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 test.py
 # data
-dataset/*
+dataset/mal-api-2019
 
 ### VirtualEnv template
 # Virtualenv
