@@ -29,13 +29,18 @@
 
 经统计， 在数据集中出现的 API 共有 278 种，存储在 api_dict 中
 
-###
+### 序列长度处理
+最长的有 1764421 次 API 调用，最短的只有几百次。
+![](https://raw.githubusercontent.com/gordongwb/ImageHosting/master/Screenshot%20from%202019-09-24%2009-32-04.png)
 
+如果将每一个样本都填充到最大值也许将会大大增加算法的复杂度（不一定，需试验）
+
+ref：[几种处理超长序列输入的方法](https://cloud.tencent.com/developer/article/1118259)
 # 0x00 Classification Algorithm
 
 ### 1.基于术语频率(Term Frequency)的分类
 
-### 
+### 2.RNN
 
 
 

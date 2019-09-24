@@ -3,7 +3,7 @@
 test.py
 # data
 dataset/mal-api-2019/*
-dataset/analysis_data_index
+dataset/mal-api-2019/analysis_data_index
 
 ### VirtualEnv template
 # Virtualenv
