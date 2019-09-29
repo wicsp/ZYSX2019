@@ -14,7 +14,7 @@ with open(os.path.abspath('..')+'/api_dict.csv', 'r') as csv_file:
     print(api_dict)
 new_dict = { v : k for k,v in api_dict.items() }
 with open(os.path.abspath('..')+'/dataset/mal-api-2019/all_analysis_data', 'r') as old_f:
-    with open(os.path.abspath('..')+'/dataset/analysis_data_index', 'w') as new_f:
+    with open(os.path.abspath('..')+'/dataset/analysis_data_index.csv', 'w') as new_f:
         i=0
         while True:
             line = old_f.readline()

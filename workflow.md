@@ -28,12 +28,16 @@
 对各 API 进行编号，并将由 API 调用顺序组成的原文件转换为由各 API 序号构成的新文件，便于机器学习。
 
 经统计， 在数据集中出现的 API 共有 278 种，存储在 api_dict 中
+### 训练集和测试集的分割
+
+
 
 ### 序列长度处理
 最长的有 1764421 次 API 调用，最短的只有几百次。
 ![](https://raw.githubusercontent.com/gordongwb/ImageHosting/master/Screenshot%20from%202019-09-24%2009-32-04.png)
 
-如果将每一个样本都填充到最大值也许将会大大增加算法的复杂度（不一定，需试验）
+如果将每一个样本都填充到最大值也许将会大大增加算法的复杂度（不一定，需试验），
+可以尝试使用 embedding 层对短序列补长部分进行过滤（补充部分设为-1）,若不会增加太大的运算量，可以采用直接补长短序列到最长长度
 
 ref：[几种处理超长序列输入的方法](https://cloud.tencent.com/developer/article/1118259)
 # 0x00 Classification Algorithm
@@ -41,6 +45,8 @@ ref：[几种处理超长序列输入的方法](https://cloud.tencent.com/develo
 ### 1.基于术语频率(Term Frequency)的分类
 
 ### 2.RNN
+
+### 3.LSTM
 
 
 

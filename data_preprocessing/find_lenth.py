@@ -9,7 +9,7 @@ import time
 start = time.time()
 length = 0
 row = 0
-with open(os.path.abspath('..')+'/dataset/mal-api-2019/analysis_data_index') as f:
+with open(os.path.abspath('..')+'/dataset/mal-api-2019/analysis_data_index.csv') as f:
     while True:
         line = f.readline()
         if line:
