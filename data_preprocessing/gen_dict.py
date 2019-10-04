@@ -11,7 +11,7 @@ import os
 list = []
 
 start = time.time()
-with open(os.path.abspath('.')+'/dataset/mal-api-2019/all_analysis_data', 'r') as f:
+with open(os.path.abspath('.')+'/dataset/mal-api-2019/all_analysis_data.csv', 'r') as f:
     i = 0
     while True:
         line = f.readline()
