@@ -4,6 +4,7 @@ test.py
 # data
 dataset/mal-api-2019/*
 dataset/mal-api-2019/analysis_data_index.csv
+dataset/train_fast
 
 ### VirtualEnv template
 # Virtualenv

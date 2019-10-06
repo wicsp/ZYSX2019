@@ -20,7 +20,7 @@ with open(os.path.abspath('..')+'/dataset/mal-api-2019/analysis_data_index.csv')
                 length = len(list)
                 print(row)
                 print(length)
-            if len(list) > 100000:
+            if len(list) > 10000:
                 wubai += 1
         else:
             break

@@ -33,24 +33,27 @@
 
 
 ### 序列长度处理
-最长的有 1764421 次 API 调用，最短的只有几百次。
+最长的有 1764421 次 API 调用，最短的只有几百次。序列长度超过 10000 的样本有 789 个，排除丢弃过长序列的可能性。
 
-![](https://raw.githubusercontent.com/gordongwb/ImageHosting/master/Screenshot%20from%202019-09-24%2009-32-04.png)
+![](https://raw.githubusercontent.com/gordongwb/ImageHosting/master/Screenshot%20from%202019-10-04%2018-03-55.png)
 
-CNN/Fasttext可以直接处理超长序列，LSTM只能处理1000以内的序列，超过可以尝试IndRNN模型（文章说可以处理超过5000的序列），Transformer通常可以处理512左右的序列，自己的机器上测过大概在700左右，超过则显存爆了，Transformer-XL可以处理超长的序列。
-大于30 17个
 
-如果将每一个样本都填充到最大值也许将会大大增加算法的复杂度（不一定，需试验），
-可以尝试使用 embedding 层对短序列补长部分进行过滤（补充部分设为-1）,若不会增加太大的运算量，可以采用直接补长短序列到最长长度
+
+如果将每一个样本都填充到最大值也许将会大大增加算法的复杂度，可以尝试使用 masking 层对短序列补长部分进行过滤（补充部分设为-1）,若不会增加太大的运算量，可以采用直接补长短序列到最长长度。
 
 ref：[几种处理超长序列输入的方法](https://machinelearningmastery.com/handle-long-sequences-long-short-term-memory-recurrent-neural-networks/)
+
+> CNN/Fasttext可以直接处理超长序列，LSTM只能处理1000以内的序列，超过可以尝试IndRNN模型（文章说可以处理超过5000的序列），Transformer通常可以处理512左右的序列，自己的机器上测过大概在700左右，超过则显存爆了，Transformer-XL可以处理超长的序列。
+
+解决当前问题较为合适的方法有两个：
+- 找到一个合适的文本总结算法，可观地减少序列长度
+- 使用 CNN/Fasttext 等其他算法解决分类问题
+
 # 0x00 Classification Algorithm
 
 ### 1.基于术语频率(Term Frequency)的分类
 
-### 2.RNN
-
-### 3.LSTM
+### 2.Fasttest
 
 
 
