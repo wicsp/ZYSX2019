@@ -26,14 +26,14 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.1, shuffle
 with open(fast_train, 'w') as train:
     len = X_train.shape[0]
     for i in range(len):
-        text = X_train[i][0]
-        label = Y_train[i][0]
+        text = X_train.iloc[i][0]
+        label = Y_train.iloc[i][0]
         train.write('__label__' + label + ' '+text+'\n')
 
 with open(fast_test, 'w') as test:
     len = X_test.shape[0]
     for i in range(len):
-        text = X_test[i][0]
-        label = Y_test[i][0]
+        text = X_test.iloc[i][0]
+        label = Y_test.iloc[i][0]
         train.write('__label__' + label + ' ' + text+'\n')
 
