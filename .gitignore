@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 # test
 test.py
+test.csv
 # data
 dataset/mal-api-2019/*
 dataset/mal-api-2019/analysis_data_index.csv
