@@ -56,9 +56,9 @@ ref：[几种处理超长序列输入的方法](https://machinelearningmastery.c
 ### 2.Fasttest（目前采用的方法）
 
 初步参考以下三篇文章：
-[](https://blog.csdn.net/weixin_36604953/article/details/78195462)
-[](https://blog.csdn.net/weixin_36604953/article/details/78324834)
-[](https://blog.csdn.net/feilong_csdn/article/details/88655927)
+https://blog.csdn.net/weixin_36604953/article/details/78195462
+https://blog.csdn.net/weixin_36604953/article/details/78324834
+https://blog.csdn.net/feilong_csdn/article/details/88655927
 
 
 
