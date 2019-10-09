@@ -17,7 +17,7 @@ with open(path+'/dataset/labels.csv', 'r') as labels:
                 label = labels.readline()
                 text = data.readline()
                 if label and text:
-                    train.write('__label__'+label+' '+text)
+                    train.write('__label__'+label+' '+text+'\n')
                     pbar.update(1)
                 else:
                     break
