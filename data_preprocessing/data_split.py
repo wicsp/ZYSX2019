@@ -35,5 +35,5 @@ with open(fast_test, 'w') as test:
     for i in range(len):
         text = X_test.iloc[i][0]
         label = Y_test.iloc[i][0]
-        train.write('__label__' + label + ' ' + text+'\n')
+        test.write('__label__' + label + ' ' + text+'\n')
 
