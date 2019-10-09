@@ -3,6 +3,8 @@
 # @Author : gordongwb
 # @File : gen_dict.py
 
+# 生成 api：number 的字典
+
 import time
 import csv
 import os

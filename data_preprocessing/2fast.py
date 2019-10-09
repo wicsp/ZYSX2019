@@ -3,6 +3,7 @@
 # @Author : gordongwb 
 # @File : 2fast.py
 
+# 将数据和标签转化为 FastText 支持的格式
 
 import os
 from tqdm import tqdm

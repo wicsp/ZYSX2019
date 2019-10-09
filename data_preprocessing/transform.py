@@ -3,6 +3,8 @@
 # @Author : gordongwb
 # @File : transform.py
 
+# 将数据中的 api 名称转化为数字编号的格式
+
 import os
 import time
 import csv

@@ -3,6 +3,8 @@
 # @Author : gordongwb 
 # @File : find_lenth.py
 
+# 计算长度并找到最长的 api 序列
+
 import os
 import time
 
