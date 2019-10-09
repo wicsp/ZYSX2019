@@ -47,7 +47,7 @@ ref：[几种处理超长序列输入的方法](https://machinelearningmastery.c
 
 解决当前问题较为合适的方法有两个：
 - 找到一个合适的文本总结算法，可观地减少序列长度
-- 使用 CNN/Fasttext 等其他算法解决分类问题
+- 使用 CNN/Fasttext/特征词袋 等其他算法解决分类问题
 
 # 0x00 Classification Algorithm
 
