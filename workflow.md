@@ -49,6 +49,9 @@ ref：[几种处理超长序列输入的方法](https://machinelearningmastery.c
 - 找到一个合适的文本总结算法，可观地减少序列长度
 - 使用 CNN/Fasttext/特征词袋 等其他算法解决分类问题
 
+基于API序列特征和统计特征组合的恶意样本检测框架（来自清华大学）
+http://jst.tsinghuajournals.com/CN/rhhtml/20180510.htm
+
 # 0x00 Classification Algorithm
 
 ### 1.基于术语频率(Term Frequency)的分类
